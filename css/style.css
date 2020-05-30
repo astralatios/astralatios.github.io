@@ -27,11 +27,14 @@ Import Google Fonts
 --------------------*/
 
 /* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900); */
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
 /* font for headings, text, tags */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playfair+Display:400italic">
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic&subset=latin,latin-ext);
-
+*/
 /*--------------------
 1. General
 --------------------*/
@@ -212,6 +215,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -221,6 +225,7 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
 	header .intro-text .intro-heading {
 	    text-transform: uppercase;
+        font-family: "Roboto",sans-serif;
 	    font-weight: 700;
 	    font-size: 75px;
 	    line-height: 75px;
