@@ -476,6 +476,10 @@ figure.effect-bubba:hover p {
 	background-color: #f8f8f8;
 }
 
+.medium-bg {
+    background-color: rgba(240,240,240,1);
+}
+
 .overlay-dark:before, .overlay-light:before {
     background-color: rgba(32,32,32,0.8);
     left: 0;
